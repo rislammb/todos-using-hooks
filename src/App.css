@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: beige;
+  height: 100vh;
+  font-size: 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.todo-list {
+  width: 700px;
+  max-width: 97%;
+  height: 100%;
+  padding: 15px 0;
+  margin: auto;
+  background-color: rgb(250, 250, 250);
+}
+.todo-header {
+  text-align: center;
+  color: #1eceff;
+  padding: 12px 0;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  color: rgb(170, 23, 175);
+  justify-content: space-between;
+  margin-bottom: 7px;
+  background-color: #d6f6ff;
+  padding: 0 0 0 10px;
+}
+button {
+  border: 1.5px solid rgb(0, 170, 37);
+  background-color: transparent;
+  border-radius: 15px;
+  margin-left: 3px;
+  padding: 8px 10px;
+  outline: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(250, 194, 233);
+}
+form {
+  width: 250px;
+  margin: 10px auto;
+}
+.todo-input {
+  width: 100%;
+  padding: 10px;
+  border: 1.2px solid #aaa;
+  box-shadow: none;
+  outline: none;
+  border-radius: 5px;
+}
+.todo-input:focus {
+  border: 1.2px solid #333;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
